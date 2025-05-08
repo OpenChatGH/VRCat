@@ -1,0 +1,342 @@
+{
+    "VoiceEnableDegradation": false,
+    "VoiceEnableReceiverLimiting": true,
+    "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
+    "alignmentReservedProbability": 0,
+    "analyticsSegment_NewUI_PctOfUsers": 2,
+    "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
+    "announcements": [],
+    "appName": "VrChat",
+    "assetSend": 0.33867886813018266,
+    "availableLanguages": [
+      "English",
+      "French",
+      "Spanish",
+      "Italian",
+      "Korean",
+      "German",
+      "Japanese"
+    ],
+    "buildVersionTag": "master-build-2023-09-20-emile-z-tastespeed",
+    "captchaPercentage": 0,
+    "churnWafflePhoton": false,
+    "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
+    "clientBPSCeiling": 18432,
+    "clientDisconnectTimeout": 30000,
+    "clientReservedPlayerBPS": 7168,
+    "clientSentCountAllowance": 15,
+    "clipTimeoutPlus": 0,
+    "constants": {
+      "GROUPS": {
+        "CAPACITY": 100000,
+        "MAX_JOINED": 100,
+        "MAX_OWNED": 3,
+        "MAX_INVITES_REQUESTS": 50,
+        "MAX_LANGUAGES": 10,
+        "MAX_LINKS": 3,
+        "MAX_ROLES": 50,
+        "MAX_MANAGEMENT_ROLES": 5
+      },
+      "INSTANCE": {
+        "POPULATION_BRACKETS": {
+          "FEW": {
+            "min": 1,
+            "max": 5
+          },
+          "MANY": {
+            "min": 6,
+            "max": 20
+          },
+          "CROWDED": {
+            "min": 20,
+            "max": 80
+          }
+        }
+      }
+    },
+    "contactEmail": "hello@vrchat.com",
+    "contentPipelineBuildSegmentMinimum": [
+      false,
+      [
+        0.0930102349381281,
+        false
+      ],
+      0,
+      [
+        0
+      ]
+    ],
+    "copyrightEmail": "copyright@vrchat.com",
+    "currentPrivacyVersion": 0,
+    "currentTOSVersion": 1,
+    "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+    "deploymentGroup": "blue",
+    "devSdkUrl": "https://vrchat.com/home/download",
+    "devSdkVersion": "2020.09.25.00.08",
+    "dis-countdown": "2023-01-15T08:00:00.000Z",
+    "disableAVProInProton": false,
+    "disableAvatarCopying": false,
+    "disableAvatarGating": false,
+    "disableCaptcha": false,
+    "disableCommunityLabs": false,
+    "disableCommunityLabsPromotion": false,
+    "disableEmail": false,
+    "disableEventStream": false,
+    "disableFeedbackGating": false,
+    "disableFrontendBuilds": false,
+    "disableHello": false,
+    "disableOculusSubs": false,
+    "disableRegistration": false,
+    "disableSteamNetworking": true,
+    "disableTwoFactorAuth": false,
+    "disableUdon": false,
+    "disableUpgradeAccount": false,
+    "downloadLinkWindows": "https://www.oculus.com/experiences/rift/997678176960598/",
+    "downloadUrls": {
+      "sdk2": "https://assets.vrchat.com/sdk/VRCSDK2-2022.04.20.16.27_Public.unitypackage",
+      "sdk3-worlds": "https://assets.vrchat.com/sdk/VRChat-Worlds-SDK-3.3.0.unitypackage",
+      "sdk3-avatars": "https://assets.vrchat.com/sdk/VRChat-Avatars-SDK-3.3.0.unitypackage",
+      "vcc": "https://vrcpm.vrchat.cloud/vcc/Builds/2.1.3/VRChat_CreatorCompanion_Setup_2.1.3.exe",
+      "bootstrap": "https://github.com/vrchat/packages/releases/download/resolvers/latest-resolver.unitypackage"
+    },
+    "dynamicWorldRows": [
+      {
+        "name": "Hot",
+        "sortHeading": "heat",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 1
+      },
+      {
+        "name": "Spotlight - PC",
+        "sortHeading": "updated",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_spotlight_pc",
+        "index": 2
+      },
+      {
+        "name": "Spotlight - Cross Platform",
+        "sortHeading": "updated",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_spotlight_xplat",
+        "index": 3
+      },
+      {
+        "name": "Community Labs",
+        "sortHeading": "labs",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 4
+      },
+      {
+        "name": "Active - Cross Platform",
+        "sortHeading": "active",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "AllPlatforms",
+        "index": 5
+      },
+      {
+        "name": "Active - My Platform",
+        "sortHeading": "active",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformOnly",
+        "index": 6
+      },
+      {
+        "name": "Random",
+        "sortHeading": "shuffle",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 7
+      },
+      {
+        "name": "Avatar Worlds",
+        "sortHeading": "heat",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "author_tag_avatar",
+        "index": 8
+      },
+      {
+        "name": "Games",
+        "sortHeading": "heat",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "author_tag_game",
+        "index": 9
+      },
+      {
+        "name": "Updated Recently",
+        "sortHeading": "updated",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 10
+      },
+      {
+        "name": "New",
+        "sortHeading": "publication",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 11
+      },
+      {
+        "name": "Recent",
+        "sortHeading": "recent",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 12
+      },
+      {
+        "name": "Mine",
+        "sortHeading": "updated",
+        "sortOwnership": "mine",
+        "sortOrder": "descending",
+        "platform": "any",
+        "index": 13
+      },
+      {
+        "name": "Classics",
+        "sortHeading": "trending",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "index": 14
+      }
+    ],
+    "events": {
+      "distanceClose": 2,
+      "distanceFactor": 100,
+      "distanceFar": 80,
+      "groupDistance": 3,
+      "maximumBunchSize": 247,
+      "notVisibleFactor": 100,
+      "playerOrderBucketSize": 5,
+      "playerOrderFactor": 55,
+      "slowUpdateFactorThreshold": 25,
+      "viewSegmentLength": 5
+    },
+    "forceUseLatestWorld": true,
+    "homeWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7",
+    "homepageRedirectTarget": "https://hello.vrchat.com",
+    "hubWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7",
+    "imageHostUrlList": [
+      "assets.vrchat.com",
+      "i.imgur.com",
+      "pbs.twimg.com",
+      "cdn.discordapp.com",
+      "i.redd.it",
+      "images2.imgbox.com",
+      "i.ibb.co",
+      "i.postimg.cc",
+      "images4.imagebam.com",
+      "dl.dropbox.com",
+      "*.github.io",
+      "*.xr-marketplace.com",
+      "*.v-market.work",
+      "*.vket.chat",
+      "*.poly.jp",
+      "*.vazar.jp",
+      "*.catsudon.net"
+    ],
+    "jobsEmail": "jobs@vrchat.com",
+    "keySendVideo": 0.1694907936687231,
+    "minimumUnityVersionForUploads": "2019.0.0",
+    "moderationEmail": "moderation@vrchat.com",
+    "notAllowedToSelectAvatarInPrivateWorldMessage": "For security reasons, you're not yet allowed to select avatars in private worlds or upload content. Please continue to enjoy VRChat and we'll message you when you've been unlocked. Thanks and have fun!",
+    "notifyBurritoKeyword": {},
+    "photonNameserverOverrides": [
+      "ns.photonengine.io"
+    ],
+    "player-url-resolver-sha1": "02-B8-64-F3-E5-78-F0-C3-4D-16-DD-83-A8-F5-9F-F1-A6-D6-3B-2B",
+    "player-url-resolver-version": "2023-07-06",
+    "rateContextHandler": {
+      "roomTrendSyncCross": [
+        0.935585317101828,
+        [
+          true,
+          0.8715716561563631,
+          52046
+        ]
+      ]
+    },
+    "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
+    "sdkDiscordUrl": "https://discord.gg/vrchat",
+    "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
+    "sdkUnityVersion": "2019.4.31f1",
+    "serverName": "prod-api-blue-underoo-1re",
+    "stringHostUrlList": [
+      "*.github.io",
+      "pastebin.com",
+      "gist.githubusercontent.com",
+      "api.fynn.ai",
+      "api-dev.fynn.ai",
+      "*.xr-marketplace.com",
+      "*.v-market.work",
+      "*.vket.chat",
+      "*.poly.jp",
+      "*.vazar.jp",
+      "*.catsudon.net"
+    ],
+    "supportEmail": "support@vrchat.com",
+    "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
+    "transmitSearch": true,
+    "tutorialWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7",
+    "typeRegionTrendHashLocalization": "assetDeploymentSubscriber",
+    "updateRateMsMaximum": 1000,
+    "updateRateMsMinimum": 50,
+    "updateRateMsNormal": 200,
+    "updateRateMsUdonManual": 50,
+    "uploadAnalysisPercent": 1,
+    "urlList": [
+      "*.facebook.com",
+      "*.nicovideo.jp",
+      "soundcloud.com",
+      "*.twitch.tv",
+      "*.vimeo.com",
+      "*.youku.com",
+      "*.youtube.com",
+      "youtu.be",
+      "assets.vrchat.com",
+      "*.v-market.work",
+      "music4.cdn.vket.com",
+      "*.vrcdn.live",
+      "*.vrcdn.video",
+      "mixcloud.com",
+      "twisteventsasia.com",
+      "stream.broadcast.unity.com",
+      "*.furality.online",
+      "live.foxcdn.io",
+      "*.xr-marketplace.com",
+      "*.vket.chat",
+      "ciel.topaz.chat",
+      "movie.vketcdn.com",
+      "*.poly.jp",
+      "*.vazar.jp",
+      "*.catsudon.net"
+    ],
+    "useReliableUdpForVoice": false,
+    "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
+    "whiteListedAssetUrls": [
+      "http://dbinj8iahsbec.cloudfront.net/plugins",
+      "http://dbinj8iahsbec.cloudfront.net/",
+      "https://dbinj8iahsbec.cloudfront.net/",
+      "https://dev-api.vrchat.cloud/api/1/file/",
+      "https://api.vrchat.cloud/api/1/file/",
+      "https://files.vrchat.cloud/unmanaged/",
+      "http://localhost:3000/api/1/file/"
+    ]
+  }
